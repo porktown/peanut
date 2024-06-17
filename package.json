@@ -1,0 +1,6 @@
+{
+"scripts":{
+	"dev":"tsx watch src/bot.ts",
+	"start":"node dist/index.js",
+	"build":"tsup src/bot.ts --minify"
+},
